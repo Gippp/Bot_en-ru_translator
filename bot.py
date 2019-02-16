@@ -4,6 +4,7 @@ import requests
 
 bot = telebot.TeleBot(config.token)
 
+#Nothing
 @bot.message_handler(content_types=["text"])
 def translate(message):
     last_text=(message.text)
